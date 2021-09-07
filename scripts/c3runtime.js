@@ -3773,6 +3773,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.ResetGlobals,
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.System.Exps.random,
+		C3.Plugins.Keyboard.Cnds.IsKeyDown,
+		C3.Behaviors.EightDir.Acts.SimulateControl,
 		C3.Plugins.Button.Cnds.OnClicked,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
